@@ -15,7 +15,7 @@
     background-clip: text;
     display: inline-block;
     color: transparent;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 6.28s alternate infinite;
