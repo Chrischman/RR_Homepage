@@ -1,7 +1,9 @@
 #header {
-    font-family: Arial;
-    font-size: 40px;
-    color: red;
+  width: 100%;  
+  text-align: center;
+  font-family: Arial;
+  font-size: 40px;
+  color: red;
  }
 
  .rainbow-text {
