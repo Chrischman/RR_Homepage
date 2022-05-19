@@ -4,6 +4,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   li {
@@ -27,6 +30,7 @@ ul {
     background-color: #111;
   }
   
-  .active {
-    background-color: #04AA6D;
+  [aria-current] {
+    font-weight: bold;
+    background-color: #cc33ff;
   }
