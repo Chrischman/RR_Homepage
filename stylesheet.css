@@ -46,3 +46,10 @@ text {
 #eins {
     fill: url(#verlauf);
     }
+
+.leftFloat {
+  float: left
+  }
+  .rightFloat {
+  float: right
+  }
