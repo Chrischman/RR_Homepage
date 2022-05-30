@@ -5,10 +5,10 @@
   <channel>
     <title>Regenbogenreich</title>
     <link>regenbogenreich.eu</link>
-    <description>Kurze Beschreibung des Feeds</description>
+    <description>Neuigkeiten, welche auf der Regenbogenreich-HP veröffentlicht werden.</description>
     <language>de-de</language>
     <copyright>Autor des Feeds</copyright>
-    <pubDate>30.05.2022</pubDate>
+    <pubDate>Tu, 30 Feb 2022 14:59:48 +0100</pubDate>
     <image>
       <url>URL einer einzubindenden Grafik</url>
       <title>Bildtitel</title>
@@ -17,15 +17,11 @@
 
     <item>
       <title>Supi, jetzt mit RSS :-)</title>
-      <description>Kurze Zusammenfassung des Eintrags</description>
+      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
       <link>Link zum vollständigen Eintrag</link>
-      <author>Autor des Artikels, E-Mail-Adresse</author>
+      <author>Christian Niebuhr</author>
       <guid>Eindeutige Identifikation des Eintrages</guid>
-      <pubDate>30.05.2022</pubDate>
-    </item>
-
-    <item>
-      ...
+      <pubDate>Tu, 30 Feb 2022 14:59:48 +0100</pubDate>
     </item>
 
   </channel>
