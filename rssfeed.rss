@@ -8,7 +8,7 @@
     <description>Neuigkeiten, welche auf der Regenbogenreich-HP veröffentlicht werden.</description>
     <language>de-de</language>
     <copyright>Autor des Feeds</copyright>
-    <pubDate>Tu, 30 Feb 2022 14:59:48 +0100</pubDate>
+    <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
     <image>
       <url>URL einer einzubindenden Grafik</url>
       <title>Bildtitel</title>
@@ -21,7 +21,16 @@
       <link>Link zum vollständigen Eintrag</link>
       <author>Christian Niebuhr</author>
       <guid>Eindeutige Identifikation des Eintrages</guid>
-      <pubDate>Tu, 30 Feb 2022 14:59:48 +0100</pubDate>
+      <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>TEst, ein zweiter Eintrag</title>
+      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
+      <link>Link zum vollständigen Eintrag</link>
+      <author>Christian Niebuhr</author>
+      <guid>Eindeutige Identifikation des Eintrages</guid>
+      <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
   </channel>
