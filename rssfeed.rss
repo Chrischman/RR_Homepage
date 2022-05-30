@@ -42,6 +42,18 @@
       <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
+    <item>
+      <title>Das Regenbogenreich ist jetzt auch sicher unterwegs :-)</title>
+      <description>  Die Homepage ist jetzt nicht nur unter <a href=http://regenbogenreich.eu>http://regenbogenreich.eu</a> erreichbar, sondern auch unter <a href="https://regenbogenreich.eu">https://regenbogenreich.eu"</a>. Ist Euch der Unterschied aufgefallen?<br>
+            Es ist das kleine <emph>s</emph> bei <emph>https</emph> das am Ende bei <emph>http</emph> dazu gekommen ist. Das <emph>s</emph> steht für "sicher" oder "secure". Wird die Homepage mit <empph>https</empph> anstelle von <empg>http</empg> aufgerufen, 
+            wird der gesamte Datenverkehr verschlüsselt durchgeführt. Dies ist für niemand anderen lesbar, also sicherer. Die Verschlüsselung ist für eine normale Homepage nicht unbedingt notwendig. Bei Homepages mit persönlichem Login, Passwörtern und so 
+            aber unbedingt zwingend erforderlich. Weitere Infos bei Youtube<br></description>
+      <link>https://regenbogenreich.eu#Ankername</link>
+      <author>Christian Niebuhr</author>
+      <guid>4</guid>
+      <pubDate>Tu, 30 May 2022 21:38:48 +0100</pubDate>
+    </item>
+
   </channel>
 
 </rss>
