@@ -25,6 +25,15 @@
     </item>
 
     <item>
+      <title>Und ein dritter Eintrag</title>
+      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
+      <link>Link zum vollständigen Eintrag</link>
+      <author>Christian Niebuhr</author>
+      <guid>Eindeutige Identifikation des Eintrages</guid>
+      <pubDate>Tu, 30 May 2022 15:59:48 +0100</pubDate>
+    </item>
+
+    <item>
       <title>TEst, ein zweiter Eintrag</title>
       <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
       <link>Link zum vollständigen Eintrag</link>
