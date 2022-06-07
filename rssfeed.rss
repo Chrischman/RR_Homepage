@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+application/rss+xml
+
 <rss version="2.0">
 
   <channel>
     <title>Regenbogenreich</title>
-    <link>regenbogenreich.eu</link>
-    <description>Neuigkeiten, welche auf der Regenbogenreich-HP veröffentlicht werden.</description>
+    <link>https://regenbogenreich.eu</link>
+    <description>Feed aller Neuigkeiten, die auf der Regenbogenreich-HP veröffentlicht werden.</description>
     <language>de-de</language>
-    <copyright>Autor des Feeds</copyright>
-    <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
+    <copyright>ChrischMan</copyright>
+    <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
+
     <image>
-      <url>URL einer einzubindenden Grafik</url>
+      <url>./Bilder/cropped-rr_mcs.png</url>
       <title>Bildtitel</title>
       <link>URL, mit der das Bild verknüpft ist</link>
     </image>
@@ -21,16 +24,16 @@
       <link>Link zum vollständigen Eintrag</link>
       <author>Christian Niebuhr</author>
       <guid>1</guid>
-      <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
+      <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
     <item>
       <title>Und ein dritter Eintrag</title>
       <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
       <link>Link zum vollständigen Eintrag</link>
-      <author>Christian Niebuhr</author>
+      <author>chrischman@live.de</author>
       <guid>2</guid>
-      <pubDate>Tu, 30 May 2022 15:59:48 +0100</pubDate>
+      <pubDate>Tue, 30 May 2022 15:59:48 +0100</pubDate>
     </item>
 
     <item>
@@ -39,7 +42,7 @@
       <link>Link zum vollständigen Eintrag</link>
       <author>Christian Niebuhr</author>
       <guid>3</guid>
-      <pubDate>Tu, 30 May 2022 14:59:48 +0100</pubDate>
+      <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
     <item>
@@ -51,7 +54,7 @@
       <link>https://regenbogenreich.eu#Ankername</link>
       <author>Christian Niebuhr</author>
       <guid>4</guid>
-      <pubDate>Tu, 30 May 2022 21:38:48 +0100</pubDate>
+      <pubDate>Tue, 30 May 2022 21:38:48 +0100</pubDate>
     </item>
 
       <item>
@@ -60,7 +63,7 @@
         <link>Link zum vollständigen Eintrag</link>
         <author>Christian Niebuhr</author>
         <guid>5</guid>
-        <pubDate>So, 5 June 2022 15:00:48 +0100</pubDate>
+        <pubDate>Sun, 5 June 2022 15:00:48 +0100</pubDate>
     </item>
 
 
