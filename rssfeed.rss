@@ -28,23 +28,24 @@
 
     <item>
       <title>Das Regenbogenreich ist jetzt auch sicher unterwegs :-)</title>
-      <description>  Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?
+      <description>  
+            Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?
             Es ist das kleine s bei https das am Ende bei http dazu gekommen ist. Das s steht für "sicher" oder "secure". Wird die Homepage mit https anstelle von http aufgerufen, 
             wird der gesamte Datenverkehr verschlüsselt durchgeführt. Dies ist für niemand anderen lesbar, also sicherer. Die Verschlüsselung ist für eine normale Homepage nicht unbedingt notwendig. Bei Homepages mit persönlichem Login, Passwörtern und so 
             aber unbedingt zwingend erforderlich. Weitere Infos bei Youtube
       </description>
-      <link>https://regenbogenreich.eu#Ankername</link>
+      <link>https://regenbogenreich.eu#15052022_HTTPS</link>
       <author>chrischman@live.de (ChrischMan)</author>
-      <guid>https://regenbogenreich.eu#4</guid>
+      <guid>https://regenbogenreich.eu#15052022_HTTPS</guid>
       <pubDate>30 May 2022 21:38:48 +0100</pubDate>
     </item>
 
     <item>
-        <title>Regenbogenreich reist ... zum Football</title>
+        <title>05.06.2022 - RegenbogenReich reist ... zum Heimspiel der Stuttgart Surge</title>
         <description>Hey Leute, heute sind wir beim Spiel der Stuttgart Surges gegen die Barcelona Dragons! ...</description>
-        <link>https://regenbogenreich.eu</link>
+        <link>https://regenbogenreich.eu#05062022_RRreistFootball</link>
         <author>chrischman@live.de (ChrischMan)</author>
-        <guid>https://regenbogenreich.eu#5</guid>
+        <guid>https://regenbogenreich.eu#05062022_RRreistFootball</guid>
         <pubDate>5 Jun 2022 15:00:48 +0100</pubDate>
     </item>
 
