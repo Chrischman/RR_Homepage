@@ -8,7 +8,7 @@
     <description>Feed aller Neuigkeiten, die auf der Regenbogenreich-HP veröffentlicht werden.</description>
     <language>de-de</language>
     <copyright>ChrischMan</copyright>
-    <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
+    <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
 
     <image>
       <url>./Bilder/cropped-rr_mcs.png</url>
@@ -22,30 +22,12 @@
       <link>Link zum vollständigen Eintrag</link>
       <author>Christian Niebuhr</author>
       <guid>1</guid>
-      <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
-    </item>
-
-    <item>
-      <title>Und ein dritter Eintrag</title>
-      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
-      <link>Link zum vollständigen Eintrag</link>
-      <author>chrischman@live.de</author>
-      <guid>2</guid>
-      <pubDate>Tue, 30 May 2022 15:59:48 +0100</pubDate>
-    </item>
-
-    <item>
-      <title>TEst, ein zweiter Eintrag</title>
-      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
-      <link>Link zum vollständigen Eintrag</link>
-      <author>Christian Niebuhr</author>
-      <guid>3</guid>
-      <pubDate>Tue, 30 May 2022 14:59:48 +0100</pubDate>
+      <pubDate>30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
     <item>
       <title>Das Regenbogenreich ist jetzt auch sicher unterwegs :-)</title>
-      <description>  Die Homepage ist jetzt nicht nur unter <a href=http://regenbogenreich.eu>http://regenbogenreich.eu</a> erreichbar, sondern auch unter <a href="https://regenbogenreich.eu">https://regenbogenreich.eu"</a>. Ist Euch der Unterschied aufgefallen?<br>
+      <description>  Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?<br>
             Es ist das kleine <emph>s</emph> bei <emph>https</emph> das am Ende bei <emph>http</emph> dazu gekommen ist. Das <emph>s</emph> steht für "sicher" oder "secure". Wird die Homepage mit <empph>https</empph> anstelle von <empg>http</empg> aufgerufen, 
             wird der gesamte Datenverkehr verschlüsselt durchgeführt. Dies ist für niemand anderen lesbar, also sicherer. Die Verschlüsselung ist für eine normale Homepage nicht unbedingt notwendig. Bei Homepages mit persönlichem Login, Passwörtern und so 
             aber unbedingt zwingend erforderlich. Weitere Infos bei Youtube<br></description>
