@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
     <title>Regenbogenreich</title>
@@ -9,6 +9,7 @@
     <language>de-de</language>
     <copyright>ChrischMan</copyright>
     <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
+    <atom:link href="https://regenbogenreich.eu/rssfeed.rss" rel="self" type="application/rss+xml" />
 
     <image>
       <url>https://regenbogenreich.eu/Bilder/cropped-rr_mcs.png</url>
@@ -21,7 +22,7 @@
       <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
       <link>https://regenbogenreich.eu</link>
       <author>chrischman@live.de (ChrischMan)</author>
-      <guid>1</guid>
+      <guid>https://regenbogenreich.eu#1</guid>
       <pubDate>30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
@@ -34,16 +35,16 @@
       </description>
       <link>https://regenbogenreich.eu#Ankername</link>
       <author>chrischman@live.de (ChrischMan)</author>
-      <guid>4</guid>
+      <guid>https://regenbogenreich.eu#4</guid>
       <pubDate>30 May 2022 21:38:48 +0100</pubDate>
     </item>
 
       <item>
         <title>Regenbogenreich reist ... zum Football</title>
         <description>Hey Leute, heute sind wir beim Spiel der Stuttgart Surges gegen die Barcelona Dragons! ...</description>
-        <link>Link zum vollständigen Eintrag</link>
+        <link>https://regenbogenreich.eu</link>
         <author>chrischman@live.de (ChrischMan)</author>
-        <guid>5</guid>
+        <guid>https://regenbogenreich.eu#5</guid>
         <pubDate>5 Jun 2022 15:00:48 +0100</pubDate>
     </item>
 
