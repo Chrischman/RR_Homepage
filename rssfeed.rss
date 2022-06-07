@@ -18,15 +18,6 @@
     </image>
 
     <item>
-      <title>Supi, jetzt mit RSS :-)</title>
-      <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
-      <link>https://regenbogenreich.eu#1</link>
-      <author>chrischman@live.de (ChrischMan)</author>
-      <guid>https://regenbogenreich.eu#1</guid>
-      <pubDate>30 May 2022 14:59:48 +0100</pubDate>
-    </item>
-
-    <item>
       <title>Das Regenbogenreich ist jetzt auch sicher unterwegs :-)</title>
       <description>  
             Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?
@@ -56,6 +47,15 @@
         <author>chrischman@live.de (ChrischMan)</author>
         <guid>https://regenbogenreich.eu#04062022_RRrepariertTurbosFahrrad</guid>
         <pubDate>7 Jun 2022 09:00:48 +0100</pubDate>
+    </item>
+
+    <item>
+      <title>RSS: Keine Nachrichten vom RegenbogenReich mehr verpassen mit dem RSS Feed. :-)</title>
+      <description>Ab jetzt werden die News per Newsfeed angezeigt! Geht bitte auf den Link, um euch die Nachrichten anzusehen.</description>
+      <link>https://regenbogenreich.eu#08062022_RSS</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#08062022_RSS</guid>
+      <pubDate>8 Jun 2022 14:59:48 +0100</pubDate>
     </item>
 
   </channel>
