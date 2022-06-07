@@ -11,8 +11,8 @@
     <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
 
     <image>
-      <url>./Bilder/cropped-rr_mcs.png</url>
-      <title>Bildtitel</title>
+      <url>https://regenbogenreich.eu/Bilder/cropped-rr_mcs.png</url>
+      <title>Regenbogenreich</title>
       <link>URL, mit der das Bild verknüpft ist</link>
     </image>
 
@@ -20,19 +20,20 @@
       <title>Supi, jetzt mit RSS :-)</title>
       <description>Ab jetzt werden die News per Newsfeed angezeigt!</description>
       <link>Link zum vollständigen Eintrag</link>
-      <author>Christian Niebuhr</author>
+      <author>chrischman@live.de</author>
       <guid>1</guid>
       <pubDate>30 May 2022 14:59:48 +0100</pubDate>
     </item>
 
     <item>
       <title>Das Regenbogenreich ist jetzt auch sicher unterwegs :-)</title>
-      <description>  Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?<br>
+      <description>  Die Homepage ist jetzt nicht nur unter http://regenbogenreich.eu> erreichbar, sondern auch unter https://regenbogenreich.eu". Ist Euch der Unterschied aufgefallen?
             Es ist das kleine <emph>s</emph> bei <emph>https</emph> das am Ende bei <emph>http</emph> dazu gekommen ist. Das <emph>s</emph> steht für "sicher" oder "secure". Wird die Homepage mit <empph>https</empph> anstelle von <empg>http</empg> aufgerufen, 
             wird der gesamte Datenverkehr verschlüsselt durchgeführt. Dies ist für niemand anderen lesbar, also sicherer. Die Verschlüsselung ist für eine normale Homepage nicht unbedingt notwendig. Bei Homepages mit persönlichem Login, Passwörtern und so 
-            aber unbedingt zwingend erforderlich. Weitere Infos bei Youtube<br></description>
+            aber unbedingt zwingend erforderlich. Weitere Infos bei Youtube
+      </description>
       <link>https://regenbogenreich.eu#Ankername</link>
-      <author>Christian Niebuhr</author>
+      <author>chrischman@live.de</author>
       <guid>4</guid>
       <pubDate>Tue, 30 May 2022 21:38:48 +0100</pubDate>
     </item>
@@ -41,7 +42,7 @@
         <title>Regenbogenreich reist ... zum Football</title>
         <description>Hey Leute, heute sind wir beim Spiel der Stuttgart Surges gegen die Barcelona Dragons! ...</description>
         <link>Link zum vollständigen Eintrag</link>
-        <author>Christian Niebuhr</author>
+        <author>chrischman@live.de</author>
         <guid>5</guid>
         <pubDate>Sun, 5 June 2022 15:00:48 +0100</pubDate>
     </item>
