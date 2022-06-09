@@ -29,12 +29,24 @@
       <enclosure length="288515" url="http://regenbogenreich.eu/AudioCast/pod1.m4a" type="audio/m4a" />
       
       <description>Dies ist erstmal nur ein Test!</description>
-
       <itunes:image href="https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg" />
                   
       <link>https://regenbogenreich.eu#AudioCast</link>
       <author>chrischman@live.de (ChrischMan)</author>
       <guid>https://regenbogenreich.eu#AudioCast</guid>
+      <pubDate>9 Jun 2022 13:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Mein zweiter PodCast</title>
+      <enclosure length="288515" url="http://regenbogenreich.eu/AudioCast/pod1.m4a" type="audio/m4a" />
+      
+      <description>Dies ist erstmal nur ein Test!</description>
+      <itunes:image href="https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg" />
+                  
+      <link>https://regenbogenreich.eu#AudioCast2</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#AudioCast2</guid>
       <pubDate>9 Jun 2022 13:00:00 GMT</pubDate>
     </item>
 
