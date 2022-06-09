@@ -3,33 +3,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
     <channel>
+        <itunes:owner>
+            <itunes:name>ChrischMan</itunes:name>
+            <itunes:email>chrischman@live.de</itunes:email>
+        </itunes:owner>
+
         <title>Regenbogenreich AudioCast</title>
         <link>https://regenbogenreich.eu</link>
         <description>Willkommen beim AudioCast (PodCast) vom RegenbogenReich. Geschichten zum Träumen und einschlafen. :-)</description>
         <language>de-de</language>
         <copyright>ChrischMan</copyright>
         <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
-        <atom:link href="https://regenbogenreich.eu/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://regenbogenreich.eu/audiocast.rss" rel="self" type="application/rss+xml" />
 
         <image>
             <url>https://regenbogenreich.eu/Bilder/Audiocast/IMG_5757.jpg</url>
             <title>Regenbogenreich AudioCast</title>
             <link>https://regenbogenreich.eu</link>
         </image>
-
         <itunes:category text="Kids &amp; Family" />
-
+        <itunes:explicit>no</itunes:explicit>
+        
     <item>
       <title>Mein erster PodCast</title>
       <enclosure length="288515" url="http://regenbogenreich.eu/AudioCast/pod1.m4a" type="audio/m4a" />
       
       <description>Dies ist erstmal nur ein Test!</description>
 
-      <itunes:image>
-            <url>https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg"</url>
-            <title>Regenbogenreich AudioCast</title>
-            <link>https://regenbogenreich.eu</link>
-      </itunes:image>
+      <itunes:image href="https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg" />
                   
       <link>https://regenbogenreich.eu#AudioCast</link>
       <author>chrischman@live.de (ChrischMan)</author>
