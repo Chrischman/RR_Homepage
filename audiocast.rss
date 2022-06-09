@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
     <channel>
         <title>Regenbogenreich AudioCast</title>
         <link>https://regenbogenreich.eu</link>
-        <description>Dies ist der AudioCast (PodCast) vom RegenbogenReich.</description>
+        <description>Willkommen beim AudioCast (PodCast) vom RegenbogenReich. Geschichten zum Träumen und einschlafen. :-)</description>
         <language>de-de</language>
         <copyright>ChrischMan</copyright>
         <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
@@ -17,10 +17,19 @@
             <link>https://regenbogenreich.eu</link>
         </image>
 
+        <itunes:category text="Kids &amp; Family" />
+
     <item>
       <title>Mein erster PodCast</title>
-      <description>Dies ist erstmal nur ein Test!</description>
       <enclosure length="288515" url="http://regenbogenreich.eu/AudioCast/pod1.m4a" type="audio/m4a" />
+      
+      <description>Dies ist erstmal nur ein Test!</description>
+
+      <itunes:explicit>
+
+      <itunes:image>
+
+                  
       <link>https://regenbogenreich.eu#AudioCast</link>
       <author>chrischman@live.de (ChrischMan)</author>
       <guid>https://regenbogenreich.eu#AudioCast</guid>
