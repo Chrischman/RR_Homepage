@@ -5,15 +5,15 @@
     <channel>
         <title>Regenbogenreich AudioCast</title>
         <link>https://regenbogenreich.eu</link>
-        <description>Dies ist der AudioCast oder PodCast vom RegenbogenReich.</description>
+        <description>Dies ist der AudioCast (PodCast) vom RegenbogenReich.</description>
         <language>de-de</language>
         <copyright>ChrischMan</copyright>
         <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
         <atom:link href="https://regenbogenreich.eu/" rel="self" type="application/rss+xml" />
 
         <image>
-            <url>https://regenbogenreich.eu/Bilder/cropped-rr_mcs.png</url>
-            <title>Regenbogenreich</title>
+            <url>https://regenbogenreich.eu/Bilder\Audiocast\IMG_5757.jpgg</url>
+            <title>Regenbogenreich AudioCast</title>
             <link>https://regenbogenreich.eu</link>
         </image>
 
@@ -28,33 +28,4 @@
     </item>
 
     </channel>
-
-    <channel>
-        <title>Regenbogenreich AudioCast Zwei</title>
-        <link>https://regenbogenreich.eu</link>
-        <description>Dies ist der AudioCast oder PodCast vom RegenbogenReich.</description>
-        <language>de-de</language>
-        <copyright>ChrischMan</copyright>
-        <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
-        <atom:link href="https://regenbogenreich.eu/" rel="self" type="application/rss+xml" />
-
-        <image>
-            <url>https://regenbogenreich.eu/Bilder/cropped-rr_mcs.png</url>
-            <title>Regenbogenreich</title>
-            <link>https://regenbogenreich.eu</link>
-        </image>
-
-    <item>
-      <title>Mein erster PodCast</title>
-      <description>Dies ist erstmal nur ein Test!</description>
-      <enclosure length="288515" url="http://regenbogenreich.eu/AudioCast/pod1.m4a" type="audio/m4a" />
-      <link>https://regenbogenreich.eu#AudioCast</link>
-      <author>chrischman@live.de (ChrischMan)</author>
-      <guid>https://regenbogenreich.eu#AudioCast</guid>
-      <pubDate>9 Jun 2022</pubDate>
-    </item>
-
-    </channel>
-
-
 </rss>
