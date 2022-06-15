@@ -31,9 +31,9 @@
       <description>Unser erster Podcast</description>
       <itunes:image href="https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg" />
                   
-      <link>https://regenbogenreich.eu##15062022_Audiocast_1</link>
+      <link>https://regenbogenreich.eu#15062022_Audiocast_1</link>
       <author>chrischman@live.de (ChrischMan)</author>
-      <guid>https://regenbogenreich.eu##15062022_Audiocast_1</guid>
+      <guid>https://regenbogenreich.eu#15062022_Audiocast_1</guid>
       <pubDate>9 Jun 2022 13:00:00 GMT</pubDate>
     </item>
 
