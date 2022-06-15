@@ -59,6 +59,16 @@
       <pubDate>8 Jun 2022</pubDate>
     </item>
 
+    <item>
+      <title>Audiocast: Sagt Hallo zu Regenbogenreichs Audiocast/Podcast :-)</title>
+      <description>Jetzt gibt es was auf die Ohren. Bitte folgt dem Link.</description>
+      <enclosure url="http://regenbogenreich.eu/Bilder\Generic_Feed-icon.svg" type="image/svg" />
+      <link>https://regenbogenreich.eu#15062022_Audiocast_1</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#15062022_Audiocast_1</guid>
+      <pubDate>15 Jun 2022</pubDate>
+    </item>
+
   </channel>
 
 </rss>
