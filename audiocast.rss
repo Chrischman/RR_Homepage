@@ -30,6 +30,11 @@
       
       <description>Unser erster Podcast</description>
       <itunes:image href="https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg" />
+      <image>
+        <url>https://regenbogenreich.eu/Bilder/Gay_Pride_Flag.svg</url>
+          <title>Regenbogenreich AudioCast</title>
+          <link>https://regenbogenreich.eu/AudioCast/index.html</link>
+      </image>
                   
       <link>https://regenbogenreich.eu#15062022_Audiocast_1</link>
       <author>chrischman@live.de (ChrischMan)</author>
