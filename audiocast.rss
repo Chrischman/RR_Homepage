@@ -9,7 +9,7 @@
         </itunes:owner>
 
         <title>Regenbogenreich AudioCast</title>
-        <link>https://regenbogenreich.eu</link>
+        <link>https://regenbogenreich.eu/AudioCast</link>
         <description>Willkommen beim AudioCast (PodCast (TM) Apple) vom RegenbogenReich. Geschichten zum Träumen und Einschlafen und vieles anderes :-)</description>
         <language>de-de</language>
         <copyright>ChrischMan</copyright>
@@ -19,7 +19,7 @@
         <image>
             <url>https://regenbogenreich.eu/AudioCast/Bilder/IMG_5757.jpg</url>
             <title>Regenbogenreich AudioCast</title>
-            <link>https://regenbogenreich.eu/AudioCast/index.html</link>
+            <link>https://regenbogenreich.eu/AudioCast</link>
         </image>
         <itunes:category text="Kids &amp; Family" />
         <itunes:explicit>no</itunes:explicit>
