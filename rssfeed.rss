@@ -52,7 +52,7 @@
     <item>
       <title>RSS: Keine Nachrichten vom RegenbogenReich mehr verpassen mit dem RSS Feed. :-)</title>
       <description>Ab jetzt werden die News per Newsfeed angezeigt! Geht bitte auf den Link, um euch die Nachrichten anzusehen.</description>
-      <enclosure length="4096" url="http://regenbogenreich.eu/Bilder\Generic_Feed-icon.svg" type="image/svg" />
+      <enclosure length="4096" url="http://regenbogenreich.eu/Bilder/Generic_Feed-icon.svg" type="image/svg" />
       <link>https://regenbogenreich.eu#08062022_RSS</link>
       <author>chrischman@live.de (ChrischMan)</author>
       <guid>https://regenbogenreich.eu#08062022_RSS</guid>
