@@ -22,8 +22,9 @@
             <title>Regenbogenreich AudioCast</title>
             <link>https://regenbogenreich.eu/AudioCast</link>
         </image>
+
         <itunes:category text="Kids &amp; Family"> <itunes:category text="Stories for Kids"/> </itunes:category>
-        <itunes:explicit>no</itunes:explicit>
+        <itunes:explicit>false</itunes:explicit>
         
     <item>
       <title>#1 Der RegenbogenReich AudioCast/PodCast sagt Hallo</title>
