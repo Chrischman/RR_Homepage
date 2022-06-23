@@ -70,3 +70,42 @@ text {
     background-color: #04AA6D;
     color: white;
   }
+
+
+
+  ul.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li.navi {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li.navi:last-child {
+    border-right: yes;
+  }
+  
+  li a.navi {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  li a.navi:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  [aria-current] {
+    font-weight: bold;
+    background-color: #cc33ff;
+  }
