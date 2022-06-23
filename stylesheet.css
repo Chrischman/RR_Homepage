@@ -72,8 +72,7 @@ text {
   }
 
 
-
-  ul.navi {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -84,16 +83,16 @@ text {
     width: 100%;
   }
   
-  li.navi {
+  nav li {
     float: left;
     border-right:1px solid #bbb;
   }
   
-  li.navi:last-child {
+  nav li:last-child {
     border-right: yes;
   }
   
-  li a.navi {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -101,11 +100,25 @@ text {
     text-decoration: none;
   }
   
-  li a.navi:hover:not(.active) {
+ nav li a:hover:not(.active) {
     background-color: #111;
   }
   
-  [aria-current] {
-    font-weight: bold;
-    background-color: #cc33ff;
-  }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    padding:0px;
+    top:25px;
+    left: 0;
+}
+nav ul li ul li {
+    display: inline;
+}
+nav ul li ul li a {
+    display: block;
+}
+
+[aria-current] {
+  font-weight: bold;
+  background-color: #cc33ff;
+}
