@@ -89,7 +89,7 @@ text {
   }
   
   nav li:last-child {
-    border-right: yes;
+    border-right:1px solid #bbb;
   }
   
   nav li a {
