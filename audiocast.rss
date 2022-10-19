@@ -70,5 +70,18 @@
       <pubDate>19 Jun 2022 13:10:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>#3 RegenbogenReich Radio - Premierensendung vom 19.10.2022</title>
+      <enclosure length="76774834" url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast3_RR_Radio_Sendung_1_20221019.mp3" type="audio/mp3" />
+      
+      <description>Premierensendung vom 19.10.2022 - Live mit Eric und Eva</description>
+      <itunes:image href="https://regenbogenreich.eu/Bilder/News/_DSC8180.jpg" />
+                  
+      <link>https://regenbogenreich.eu#18102022_Regenbogenreich_Radio</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#18102022_Regenbogenreich_Radio</guid>
+      <pubDate>19 Oct 2022 11:20:00 GMT</pubDate>
+    </item>
+
     </channel>
 </rss>
