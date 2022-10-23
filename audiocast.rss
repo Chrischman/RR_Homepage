@@ -24,7 +24,7 @@
         </image>
 
         <itunes:category text="Kids &amp; Family"> <itunes:category text="Stories for Kids"/> </itunes:category>
-        <itunes:explicit>false</itunes:explicit>
+        <itunes:explicit>no</itunes:explicit>
         
     <item>
       <title>#1 Der RegenbogenReich AudioCast/PodCast sagt Hallo</title>
@@ -71,7 +71,7 @@
     </item>
 
     <item>
-      <title>#3 RegenbogenReich Radio - Premierensendung vom 19.10.2022</title>
+      <title>#3 RegenbogenReich Radio - Premierensendung vom 18.10.2022</title>
       <enclosure length="76774834" url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast3_RR_Radio_Sendung_1_20221019.mp3" type="audio/mp3" />
       
       <description>Premierensendung vom 18.10.2022 - Live mit Eric und Eva</description>
