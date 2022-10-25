@@ -83,5 +83,19 @@
       <pubDate>19 Oct 2022 11:20:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>#4 RegenbogenReich Radio - Sendung vom 24.10.2022</title>
+      <enclosure length="56844955 " url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast4_RR_Radio_Sendung_3_20221024.mp3" type="audio/mp3" />
+      
+      <description>RegenbogenReich Radio - Sendung vom 24.10.2022</description>
+      <itunes:image href="https://regenbogenreich.eu/Bilder/News/_DSC8180.jpg" />
+                  
+      <link>https://regenbogenreich.eu/AudioCast/index.html#24102022_radio</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#24102022_radio</guid>
+      <pubDate>24 Oct 2022 22:20:00 GMT</pubDate>
+    </item>
+
+
     </channel>
 </rss>
