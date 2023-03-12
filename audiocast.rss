@@ -96,6 +96,29 @@
       <pubDate>24 Oct 2022 22:20:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>#5 Hörbuch "Ada und Zangemann - Ein Märchen über Software, Skateboards und Himbeereis</title>
+      <enclosure length="56844955 " url="http://regenbogenreich.eu/AudioCast/Folgen/AdaUndZangemann.mp3" type="audio/mp3" />
+      
+      <description>Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis</description>
+      <itunes:image href="https://regenbogenreich.eu/AudioCast/Bilder/adazangemann.png" />
+                  
+      <link>https://regenbogenreich.eu/AudioCast/#12032023_adazangemann</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu/AudioCast/#12032023_adazangemann</guid>
+      <pubDate>12 Mar 2023 18:20:00 GMT</pubDate>
+    </item>
+
+
+----
+   <a id="12032023_adazangemann"></a>
+     <h4>#5 Hörbuch "Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis"</h4>
+        <img src="Bilder//adazangemann.png" alt="" height="200"> <br>
+         <audio id="audio_with_controls" controls>
+             <source src="Folgen/AdaUndZangemann.mp3" type="audio/mp3" />
+             Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
+         </audio>         
+         <p>
 
     </channel>
 </rss>
