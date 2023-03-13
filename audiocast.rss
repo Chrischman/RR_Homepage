@@ -85,7 +85,7 @@
 
     <item>
       <title>#4 RegenbogenReich Radio - Sendung vom 24.10.2022</title>
-      <enclosure length="56844955 " url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast4_RR_Radio_Sendung_3_20221024.mp3" type="audio/mp3" />
+      <enclosure length="56844955" url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast4_RR_Radio_Sendung_3_20221024.mp3" type="audio/mp3" />
       
       <description>RegenbogenReich Radio - Sendung vom 24.10.2022</description>
       <itunes:image href="https://regenbogenreich.eu/Bilder/News/_DSC8180.jpg" />
@@ -98,9 +98,9 @@
 
     <item>
       <title>#5 Hörbuch "Ada und Zangemann - Ein Märchen über Software, Skateboards und Himbeereis</title>
-      <enclosure length="56844955 " url="http://regenbogenreich.eu/AudioCast/Folgen/AdaUndZangemann.mp3" type="audio/mp3" />
+      <enclosure length="27937184" url="http://regenbogenreich.eu/AudioCast/Folgen/AdaUndZangemann.mp3" type="audio/mp3" />
       
-      <description>Ada & Zangemann - Ein Märchen über Software, Skateboards und Himbeereis</description>
+      <description>Ada und Zangemann - Ein Märchen über Software, Skateboards und Himbeereis</description>
       <itunes:image href="https://regenbogenreich.eu/AudioCast/Bilder/adazangemann.png" />
                   
       <link>https://regenbogenreich.eu/AudioCast/#12032023_adazangemann</link>
