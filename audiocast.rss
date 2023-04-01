@@ -109,5 +109,18 @@
       <pubDate>12 Mar 2023 18:20:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>#6 RegenbogenReich Radio - Sendung vom 31.03.2023</title>
+      <enclosure length="81469524" url="http://regenbogenreich.eu/AudioCast/Folgen/RR_Podcast5_RR_Radio_Sendung_4_20230331.mp3" type="audio/mp3" />
+      
+      <description>RegenbogenReich Radio - Sendung vom 31.03.2023</description>
+      <itunes:image href="https://regenbogenreich.eu/AudioCast/Bilder/adazangemann.png" />
+                  
+      <link>https://regenbogenreich.eu/AudioCast/#31032023_radio</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu/AudioCast/#31032023_radio</guid>
+      <pubDate>31 Mar 2023 21:20:00 GMT</pubDate>
+    </item>
+
     </channel>
 </rss>
