@@ -15,7 +15,7 @@
     <main>
 
     <header>
-        <h1>Regenbogenreich<br>Server</h1>         
+        <h1>Regenbogenreich<br>Rechenzentrum</h1>         
      </header>
 
      <nav>
@@ -32,13 +32,80 @@
           </ul>
      </nav>
 
-     Der RegenbogenReich-Server ist mittlerweile erwachsen geworden und bietet einiges an Services und Applikationen an. Neben dem Webserver und natürlich dem Minecraft-Server gibt es noch einigen anderen
+     Der RegenbogenReich-Server oder besser das verteilte Regenbogenreich-Rechenzentrum ist mittlerweile erwachsen geworden und bietet einiges an Services und Applikationen an. Neben dem Webserver und natürlich dem Minecraft-Server gibt es noch einigen anderen
      heißen Scheiß.     
      <p></p>
      Einige der Services richten sich vor allem an das Internet der Dinge (Internet of Things - IoT). Das IoT hat zum Ziel, so ziemlich alle denkbaren Geräte miteinander zu vernetzen, um daraus einen erweiterten Nutzen
      zu ziehen.<br>
      Aktuell wird der RegenbogenReich-Server dazu genutzt, den Ertrag der Solaranlage auszuwerten. Ebenfalls werden die Brau- und Gärtemperaturen von Bärbel Bräu erfasst. Aktuelle Werte könnt ihr unten in den Anzeigen sehen. 
      Diese sind aktuell! :-)
+     <p>Solltet ihr weitere Ideen habe oder Projekte, welche Server und Rechenleistungen benötigen, immer raus damit. :-)</p>
+     <p></p>    
+     <h2>RegenbogenReich Solar</h2>
+     Aktuelle Ernteleistung der Solaranlage (260 Wp)<br>
+     <iframe src="http://regenbogenreich.eu:3000/d-solo/f5455d51-967c-472a-8467-e6760af4e000/solarertrag?orgId=1&refresh=1m&panelId=3" width="450" height="200" frameborder="0"></iframe>
+    
+     <img src="Bilder/rr_solar.jpg" alt="" height="200">
+     <p>
+      Link zum Dashboard: <a href=" http://regenbogenreich.eu:3000/d/f5455d51-967c-472a-8467-e6760af4e000/solarertrag?orgId=1&refresh=1m">Dashboard</a>
+     </p>
+
+     <h2>Bärbel Bräu</h2>
+     Aktuelle Temperaturen im Gärkühlschrank, sowie der Stammwürzegehalt des Sudes:<br>
+     <iframe src="http://regenbogenreich.eu:3000/d-solo/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m&panelId=1" width="450" height="200" frameborder="0"></iframe>
+     <iframe src="http://regenbogenreich.eu:3000/d-solo/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m&panelId=2" width="450" height="200" frameborder="0"></iframe>
+     
+     <img src="Bilder/baerbelbraeukuehlschrank.jpg" alt="" height="200">
+     <p>
+      Link zum Dashboard: <a href="http://regenbogenreich.eu:3000/d/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m">Dashboard</a>
+     </p>
+
+     <h2>Rechenzentrum</h2>
+
+     Für die Datensammlung, Verarbeitung und Darstellung werden verschiedene Serives genutzt. Es sind auch unterschiedliche Rechner oder Server im Einsatz. 
+
+     <h3>Regenbogenreich.eu - WAN/Internet</h3>
+     
+     Der Server ist ein virtueller Server. Dieser ist von der Firma Hosting.de in Aachen gemietet. Er steht auch in Aachen und ist direkt an das Internet angebunden. 
+     Dies erlaubt eine feste Internetadresse und somit eine Benutzung von Domain-Namen wie "regenbogenreich.eu". Der Server ist rund um die Uhr und auf der ganzen Welt (WAN/Internet) 
+     erreichbar und steht in einem großen Rechenzentrum, ähnlich wie in dem Bild.<br>
+     <img src="Bilder/Rechenzentrum.jpg" alt="" height="200">
+     <p></p>
+     Die Tabelle zeigt die Spezifikation des virtuellen Servers. Nicht sehr toll ausgestattet, aber dafür günstig. :-)<br>
+     Dennoch: Fixe X64-Architektur und Top-Anbindung ans Internet machen den Server zu einem flinken Gesellen.
+      <table>
+         <tr><th>Name</th><th>Rechenkerne</th><th>Architektur</th><th>Arbeitsspeicher</th><th>Festspeicher</th><th>Anwendungen</th></tr>
+         <tr><td>vHost RegenbogenReich.eu</td><td>1</td><td>x64</td><td>1 GB</td><td>20 GB</td><td>Internet, Homepage, Minecraft, Docker</td></tr>
+      </table>
+      
+      <h3>baerbel - LAN</h3>
+      "baerbel" ist der Rechnerknecht und das Datenarchiv schlechthin. Hier lagern vor allem alle Bilder und Videos, sowie alles was viel Speicher benötigt. baerbel ist nicht aus
+      dem Internet erreichbar, damit Hacker kein Unwesen mit den wichtigen Daten treiben können. baerbel hängt direkt am Hausnetz (LAN) und ist durch eine unterbrechungsfreie 
+      Stromversorgung vor Stromausfall geschützt.<br>
+      Viel Leistung verbraucht allerdings auch viel elektrische Energie. Daher läuft der Server nicht rund um die Uhr, sondern nur bei Bedarf.<br>
+
+      <img src="Bilder/baerbelServer.jpg" alt="" height="200">
+      
+      <table>
+         <tr><th>Name</th><th>Rechenkerne</th><th>Architektur</th><th>Arbeitsspeicher</th><th>Festspeicher</th><th>Bemerkung</th></tr>
+         <tr><td>baerbel</td><td>4</td><td>x64</td><td>16 GB</td><td>20 TB</td><td>Datenarchiv, Video-Streaming, Audio-Streaming</td></tr>
+      </table>
+
+      <h3>littleBaerbel - LAN</h3>
+      "littleBaerbel" ist eigentlich ein Cluster. Ein Cluster ist eine Ansammlung von Rechnern. In diesem Fall handelt es sich um 4 Raspberry-Pi Computern. Dies sind kleine 
+      Rechenzwerge, welche wenig Energie verbrauchen und dennoch eine ordentliche Leistung haben.<br>
+      Die Spezifikationen sehen auf den ersten Blick ganz gut aus, allerdings handelt es sich um eine ARM-Architektur, welche auf Engergieffizienz und nicht Rechenleistung 
+      getrimmt ist. ARM-Cores arbeiten auch in unseren Handys.<br>
+
+      <img src="Bilder/raspiCluster.jpg"  alt="" height="200">
+      
+      <table>
+         <tr><th>Name</th><th>Rechenkerne</th><th>Architektur</th><th>Arbeitsspeicher</th><th>Festspeicher</th><th>Bemerkung</th></tr>
+         <tr><td>littleBaerbelMaster</td><td>4</td><td>ARMv8 - Raspi4</td><td>4 GB</td><td>128 GB</td><td>Kubernetes, Ansible</td></tr>
+         <tr><td>littleBaerbelSlv1</td><td>4</td><td>ARMv8 - Raspi3 </td><td>1 GB</td><td>20 GB</td><td>ioBroker</td></tr>
+         <tr><td>littleBaerbelSlv2</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>20 GB</td><td></td></tr>
+         <tr><td>littleBaerbelSlv3</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>20 GB</td><td></td></tr>
+      </table>
 
      <h2>Services and Applikationen</h2>
 
@@ -56,21 +123,5 @@
      </table>
      <p></p>
 
-     <p></p>
-     <h2>RegenbogenReich Solar</h2>
-     Aktuelle Ernteleistung der Solaranlage<br>
-     <iframe src="http://regenbogenreich.eu:3000/d-solo/f5455d51-967c-472a-8467-e6760af4e000/solarertrag?orgId=1&refresh=1m&panelId=3" width="450" height="200" frameborder="0"></iframe>
-    
-     <p>
-      Link zum Dashboard: <a href=" http://regenbogenreich.eu:3000/d/f5455d51-967c-472a-8467-e6760af4e000/solarertrag?orgId=1&refresh=1m">Dashboard</a>
-     </p>
-
-     <h2>Bärbel Bräu</h2>
-     Aktuelle Temperaturen im Gärkühlschrank, sowie der Stammwürzegehalt des Sudes:<br>
-     <iframe src="http://regenbogenreich.eu:3000/d-solo/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m&panelId=1" width="450" height="200" frameborder="0"></iframe>
-     <iframe src="http://regenbogenreich.eu:3000/d-solo/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m&panelId=2" width="450" height="200" frameborder="0"></iframe>
-     <p>
-      Link zum Dashboard: <a href="http://regenbogenreich.eu:3000/d/a0bb6dbd-71f9-4a9d-9f87-cf57d9e40691/barbel-brau-garkeller?orgId=1&refresh=5m">Dashboard</a>
-     </p>
 </body>
 </html>
