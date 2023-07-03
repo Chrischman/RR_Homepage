@@ -68,7 +68,7 @@
      
      Der Server ist ein virtueller Server. Dieser ist von der Firma Hosting.de in Aachen gemietet. Er steht auch in Aachen und ist direkt an das Internet angebunden. 
      Dies erlaubt eine feste Internetadresse und somit eine Benutzung von Domain-Namen wie "regenbogenreich.eu". Der Server ist rund um die Uhr und auf der ganzen Welt (WAN/Internet) 
-     erreichbar und steht in einem großen Rechenzentrum, ähnlich wie in dem Bild.<br>
+     erreichbar und steht in einem großen Rechenzentrum, ähnlich wie in dem Bild (Symbolfoto).<br>
      <img src="Bilder/Rechenzentrum.jpg" alt="" height="200">
      <p></p>
      Die Tabelle zeigt die Spezifikation des virtuellen Servers. Nicht sehr toll ausgestattet, aber dafür günstig. :-)<br>
@@ -92,19 +92,23 @@
       </table>
 
       <h3>littleBaerbel - LAN</h3>
-      "littleBaerbel" ist eigentlich ein Cluster. Ein Cluster ist eine Ansammlung von Rechnern. In diesem Fall handelt es sich um 4 Raspberry-Pi Computern. Dies sind kleine 
-      Rechenzwerge, welche wenig Energie verbrauchen und dennoch eine ordentliche Leistung haben.<br>
-      Die Spezifikationen sehen auf den ersten Blick ganz gut aus, allerdings handelt es sich um eine ARM-Architektur, welche auf Engergieffizienz und nicht Rechenleistung 
-      getrimmt ist. ARM-Cores arbeiten auch in unseren Handys.<br>
-
+      "littleBaerbel" ist eigentlich ein Cluster. Ein Cluster ist eine Ansammlung von Rechnern, auch <a href="https://de.wikipedia.org/wiki/Rechnerverbund">
+      Rechnerverbund</a> genannt. "littleBaerbel" vereint 4 <a href="https://de.wikipedia.org/wiki/Raspberry_Pi">Raspberry-Pi</a> Mini-Computer verschiedener Generationen zu einem Verbund. 
+      Raspberry Pis sind kleine Rechenzwerge, welche vergleichsweise wenig Energie verbrauchen und dennoch eine ordentliche Leistung haben. 
+      Die Recheneinheiten basieren auf der <a href="https://de.wikipedia.org/wiki/Arm-Architektur">ARM Architektur</a>, welche auch sehr häufig in Handys zum Einsatz kommt. 
+      Im Gegensatz zur x86/x64 Intel Architektur von Personal Computern oder aktuellen Spielekonsolen ist sie auf Engergieffizienz optimiert. Daher auch kleine Bärbel. :-)<br>
+      Der Cluster wird genutzt zur Steuerung der Smarthome-Geräte. Z.B. werden Informationen wie die aktuelle Leistung der Solaranlage werden zusammen getragen und an "RegenbogenReich.eu" gesendet. 
+      Außerdem dient der Cluster dazu, Erfahrungen in der Rechner- und Anwendungen-Orchestrierung zu sammeln.
+      Der Cluster ist ebenfalls nicht vom Internet aus direkt erreichbar.<br>
+      
       <img src="Bilder/raspiCluster.jpg"  alt="" height="200">
       
       <table>
          <tr><th>Name</th><th>Rechenkerne</th><th>Architektur</th><th>Arbeitsspeicher</th><th>Festspeicher</th><th>Bemerkung</th></tr>
-         <tr><td>littleBaerbelMaster</td><td>4</td><td>ARMv8 - Raspi4</td><td>4 GB</td><td>128 GB</td><td>Kubernetes, Ansible</td></tr>
-         <tr><td>littleBaerbelSlv1</td><td>4</td><td>ARMv8 - Raspi3 </td><td>1 GB</td><td>20 GB</td><td>ioBroker</td></tr>
-         <tr><td>littleBaerbelSlv2</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>20 GB</td><td></td></tr>
-         <tr><td>littleBaerbelSlv3</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>20 GB</td><td></td></tr>
+         <tr><td>littleBaerbelMaster</td><td>4</td><td>ARMv8 - Raspi4</td><td>4 GB</td><td>128 GB</td><td>Kubernetes, Ansible, ioBroker, MQTT</td></tr>
+         <tr><td>littleBaerbelSlv1</td><td>4</td><td>ARMv8 - Raspi3 </td><td>1 GB</td><td>64 GB</td><td>Kubernetes, MQTT</td></tr>
+         <tr><td>littleBaerbelSlv2</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>64 GB</td><td>Kubernetes, MQTT</td></tr>
+         <tr><td>littleBaerbelSlv3</td><td>4</td><td>ARMv7 - Raspi2</td><td>1 GB</td><td>64 GB</td><td>Kubernetes, MQTT</td></tr>
       </table>
 
      <h2>Services and Applikationen</h2>
