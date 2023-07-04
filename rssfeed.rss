@@ -9,7 +9,7 @@
     <language>de-de</language>
     <copyright>ChrischMan</copyright>
     <pubDate>Mon, 30 May 2022 14:59:48 +0100</pubDate>
-    <atom:link href="https://regenbogenreich.eu/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://regenbogenreich.eu/rssfeed.rss" rel="self" type="application/rss+xml" />
 
     <image>
       <url>https://regenbogenreich.eu/Bilder/cropped-rr_mcs.png</url>
