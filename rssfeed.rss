@@ -176,8 +176,11 @@
 
     <item>
       <title>Neue Rubrik beim RegenbogenReich: Rechenzentrum/Server</title>
-      <description>Beim RegenbogenReich-Server hat sich in letzter Zeit einiges getan. Daher wird es Zeit für eine eigene Rubrik, die sich mit unserem Rechenzentrum
-        und den dort laufenden Services oder Anwendung/Applikationen beschäftigt. Sagt "Hallo" zum RegenbogenReich-Rechenzentrum oder kurz Server.
+      <description>
+        Beim RegenbogenReich-Server hat sich in letzter Zeit einiges getan. Daher wird es Zeit für eine eigene Rubrik, 
+        die sich mit unserem Rechenzentrum und den dort laufenden Services oder Anwendung/Applikationen beschäftigt. 
+        Sagt "Hallo" zum RegenbogenReich-Rechenzentrum oder kurz Server.
+      </description> 
 
       <link>https://regenbogenreich.eu#03072023_RR_Rechenzentrum</link>
       <author>chrischman@live.de (ChrischMan)</author>
