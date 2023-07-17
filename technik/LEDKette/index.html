@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegenbogenReich Technik</title>
+
+    <!-- Stylesheet integrieren -->
+    <link rel="stylesheet" href="../../stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Regenbogenreich<br>Technik</h1>         
+     </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">News</a></li>
+            <li><a href="../restaurant/index.html">Restaurant</a></li>
+            <li><a href="../racing/index.html">Racing</a></li>
+            <li><a href="../AudioCast/index.html">Audiocast</a></li>
+            <li><a href="../Webradio/index.html">Webradio</a></li>
+            <li><a href="../technik/index.html"  aria-current="page">Technik</a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html" aria-current="page">LED Kette</a></li>
+                    <li><a href="../Homepage/index.html">Homepage</a></li>
+                </ul>
+            </li>
+            <li><a href="../Reisen/index.html">Reisen</a></li>
+            <li><a href="../minecraftserver/index.html">Minecraft</a></li>
+            <li><a href="../Server/index.html">Server</a></li>
+          </ul>
+     </nav>
+
+    <main>
+        <section>
+            <h1>RegenbogenReich baut eine einzeln adressierbare LED Kette</h1>
+
+            Die LED Kette wurde 2021 im Rahmen eines 24-tägigen Adventskalenders entwickelt. Sie basiert auf einem ESP32 Mikrokontroller und der Software WLED. Besonders ist, dass jede
+            LED der Kette einzeln angesteuert und der LED eigene Farben zugewiesen werden kann. Damit lassen sich tolle Effekte realisieren. Zudem läßt sich das System über WLAN und einer 
+            Handy-App steuern, Alexa-Integration inklusive. :-)
+            <p></p>
+
+            Der Aufbau der Kette als auch deren Nutzung wurde als Video aufgenommen und auf YouTube veröffentlicht. Schaut auch die Reihe gerne an. Hier findet ihr den Link auf die Playliste:
+
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLE2aVeBK5YMrgenyiRA_dypZv1u1YQJ4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+
+            Die entwickelten Bauteile, wie Platine und Gehäuse, sind als Bauplan auf GitHub veröffentlicht. Hier ist der Link zu GitHub:  <a href="https://github.com/Chrischman/regenbogenreich-led-kette">https://github.com/Chrischman/regenbogenreich-led-kette</a>
+
+            <h4>Spezifikation</h4>
+            <ul>
+                <li><a href="https://www.espressif.com/en/products/socs/esp32">ESP32 Mikrokontroller mit WLAN-Schnittstelle</li></a>
+                <li><a href="https://kno.wled.ge/">WLED Betriebsystem</a></li>
+                <li>LED Kette SK6812 angeschlossen an den GPIO 2 des ESP32 Mikrokontroller</li>
+            </ul>
+            Genutzte Software
+            <ul>
+                <li><a href="https://www.freecadweb.org/">FreeCAD</a> für das Gehäusedesign</li>
+                <li><a href="https://fritzing.org/">Fritzing</a> für das Platinendesign</li>
+            </ul>
+
+            <h2>Inbetriebnahme</h2>
+            Der RegenbogenReich-LED-Controller ist bei Auslieferung bereits eingerichtet und wenn er an das Stromnetz angeschlossen wird, sollten die LEDs leuchten. Gesteuert wird der Controller 
+            über das Webinterface, die <a href="https://play.google.com/store/search?q=wled&c=apps&gl=DE">WLED-App</a> oder per Sprache über Amazon Alexa. Hierüber lassen sich sehr viele Lichteffekte auswählen und selbst erstellen. 
+            Der Kreativität sind kaum Grenzen gesetzt.<p></p>
+            
+            <h3>WLAN</h3>
+            Dafür muss der RegenbogenReich LED-Controller allerdings ersteinmal in euer WLAN-Netzwerk eingebunden werden. Dazu nutzt ihr ein WLAN-fähiges Gerät und verbindet euch mit dem Access-Point des Controller. 
+            Dieser hat WLED im Namen. Ein Passwort braucht es nicht.<br>
+            War dies erfolgreich, erscheint das Webinterface von WLED. Jetzt ab in die Config und in das Wifi-Setup und die Zugangsdaten eures WLANs eingetragen. Nach dem Speichern der Daten, startet sich der Kontroller neu und bindet 
+            sich in euer Netzwerk ein. Die von eurem Router zugewiesene Adresse läßt sich am einfachsten über die WLED-App herausbekommen ... oder über den Router selbst. Sollte sich der Kontroller nicht verbinden können, wird der WLED Access-Point wieder gestartet
+            und ihr könnt es nochmal probieren.
+            <p>
+            Jetzt könnt ihr die App oder einen Browser nutzen, um mit den vielfältigen Möglichkeiten herum zu experimentieren. 
+            </p>
+            <p>Viel Spaß dabei!</p>
+
+            Weitere Informationen finden sich auf der Homepage von <a href="https://kno.wled.ge/">WLED</a> und nicht zu vergessen, in den Videos des Regenbogenreich Adventskalenders 2021. 
+            
+            <h3>LED Konfiguration</h3>
+            Die Einstellungen sollten eigentlich schon stimmen, aber sicherheitshalber hier die wichtigen Daten, um die LED-Kette vom Controller steuern lassen zu können. Unter "LED & HARDWARE Setup"/"Hardware" sind diese zu finden.
+            
+            <ul>
+                <li>LED Output: SK6812 RGBW - Der LED-Ketten-Typ</li>
+                <li>Color Order: GRB - Die farbliche Anordnung der einzelnen LEDs</li>
+                <li>Start: 1 Length: 600 - die Länge der steuerbaren Kette ... dies kann variieren, also bitte nachzählen</li>
+                <li>GPIO: 2 - der Steuerport des ESP32-Controller</li>
+            </ul>
+
+            <img src="Bilder/ledKette_config.jpg" alt="" height="300"> 
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
