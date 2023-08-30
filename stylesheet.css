@@ -134,7 +134,14 @@ figure {
     margin: 0 2em 2em 2em;    
     box-shadow: 10px 0px 25px #555;
     transform: rotate(1deg);
-}    
+}  
+
+figure.center {
+  transform: rotate(0deg);
+}
+figure.left {
+  transform: rotate(-1deg);
+}
 
 figure img {
     width: 100%;
