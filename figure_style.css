@@ -1,0 +1,34 @@
+@import url('//fonts.googleapis.com/css2?family=Rock Salt&display=swap');
+
+figure {
+    /* background-color: orange;*/
+    width: 250px;
+    height: auto;
+    float: left;
+
+    padding: 1em 1em 3em 1em;
+    border: 1px solid silver;
+    margin: 0 2em 2em 2em;    
+    box-shadow: 10px 0px 25px #555;
+    transform: rotate(1deg);
+}  
+
+figure.center {
+  transform: rotate(0deg);
+}
+figure.left {
+  transform: rotate(-1deg);
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}   
+
+figcaption {
+    font-family: 'Rock Salt', cursive;
+    color: #999;
+    padding-top: 1em;
+    line-height: 1.2em;
+    text-align: center;
+}
