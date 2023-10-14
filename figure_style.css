@@ -4,7 +4,7 @@ figure {
     /* background-color: orange;*/
     width: 250px;
     height: auto;
-    float: left;
+    float: right;
 
     padding: 1em 1em 3em 1em;
     border: 1px solid silver;
@@ -18,6 +18,14 @@ figure.center {
 }
 figure.left {
   transform: rotate(-1deg);
+}
+
+figure.small {
+  width: 150px;
+}
+
+figure.big {
+  width: 350px;
 }
 
 figure img {
