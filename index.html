@@ -43,6 +43,27 @@
     <main>
         <h1>News</h1>
 
+
+        <a id="23112023_RR_Server_Gehackt"></a>
+        <h4>
+            23.11.2023 - Alert: der RegenbogenReich-Server wurde gehakt!
+        </h4>
+        Vielleicht ist es jemandem aufgefallen: Die Server-Seite von unserer Homepage zeigt z.B. nicht mehr den Ertrag der Solaranlage an.<br>
+        Der Grund: Jemand hat sich beim Entwicklungswerkzeug "Node-Red" auf dem RegenbogenReich-Server eingeschleust und allen ursprünglichen Code entfernt.
+        <p></p> 
+        Noch Schlimmer: Dafür wurde der Code in der Grafik eingefügt. Dieser lädt einen Trojaner/Virus von einem Server in den Niederlanden herunter, den Yakuza. 
+        <img src="Bilder/News/Trojaner1.png" alt="" height="150"><br>
+        <img src="Bilder/News/Trojaner2.png" alt="" height="100">
+        <p></p>
+        Da Node-Red in einer gekapselten Container-Umgebung läuft, könnte Yakuza zum Glück keinen Schaden anrichten. :-)
+        <p></p>
+        Wie konnte das passieren? Node-Red wird standardmäßig ohne Zugriffskontrolle wie z.B.  Passwörter installiert. Jeder kann rein. Doof. 
+        Ich wollte mich um eine Absicherung kümmern, wenn Zeit ist. Ist ja nicht riskant, denn wer kennt schon das RegenbogenReich?!?! Noch doofer!
+        <p></p>
+        <em>Daher merke: Alle Dienste und Services die im oder aus dem Internet zugänglich sind, sollten sofort abgesichert werden!</em>
+
+         <!-- News-Trenner -->
+
         <a id="14092023_RR_Goes_USA"></a>
         <h4>
             14.10.2023 - RegenbogenReich goes USA  <img src="Reisen/2023_USA/Bilder/Flag_of_the_United_States.svg" alt="" height="40">
