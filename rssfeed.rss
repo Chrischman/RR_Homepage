@@ -231,7 +231,7 @@
     <item>
       <title>Alert: der RegenbogenReich-Server wurde gehakt!</title>
       <description>
-        Vielleicht ist es jemandem aufgefallen: Die Server-Seite von unserer Homepage zeigt z.B. nicht mehr den Ertrag der Solaranlage an.<br>
+        Vielleicht ist es jemandem aufgefallen: Die Server-Seite von unserer Homepage zeigt z.B. nicht mehr den Ertrag der Solaranlage an.
         Der Grund: Jemand hat sich beim Entwicklungswerkzeug "Node-Red" auf dem RegenbogenReich-Server eingeschleust und allen ursprünglichen Code entfernt.
       </description> 
 
