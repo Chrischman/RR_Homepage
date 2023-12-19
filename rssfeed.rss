@@ -255,5 +255,21 @@
       <pubDate>10 Dec 2023 08:30:48 +0100</pubDate>
     </item>
 
+    <item>
+      <title>Safe and Fast: Weihnachtsgeschenk für den RegenbogenReich-Server</title>
+      <description>
+        Beim RegenbogenReich-Server hat sich, nachdem er gehackt wurde, einiges getan. Die Anwendungen wurden virtualisiert und die Passwörter aktualisiert. Jeder Datenverkehr wird jetzt über SSL verschlüsselt
+        und durch einen Reverse-Proxy (Torwächter) abgesichert. Durch den Proxy konnten auch die offenen Ports/Anlaufstellen ins Internet drastisch reduziert werden.
+        Damit sollte der Server gut gegen Missbrauch abgesichert sein. Dies war auch nötig. Wie mir der Server-Provider schrieb, wurde
+        der gehackte RegenbogenReich-Server für DDOS-Attacken genutzt. Welcher andere Server das Opfer war, ist leider nicht bekannt. Was das ist, erklärt gerne das Bundesamt 
+        für Sicherheit in der Informationstechnik unter diesem Link ...
+      </description> 
+
+      <link>https://regenbogenreich.eu#19122023_Safe_and_Fast</link>
+      <author>chrischman@live.de (ChrischMan)</author>
+      <guid>https://regenbogenreich.eu#19122023_Safe_and_Fast</guid>
+      <pubDate>19 Dec 2023 08:30:48 +0100</pubDate>
+    </item>
+
   </channel>
 </rss>
